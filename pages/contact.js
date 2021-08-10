@@ -112,7 +112,7 @@ function Contact(props) {
   return (
     <Grid container>
       <Head>
-        <title key="title">Contact Us | Arc Development</title>
+        <title key="title">Contact Us | AMN Development</title>
         <meta
           name="description"
           key="description"
@@ -123,11 +123,11 @@ function Contact(props) {
           content="Bringing West Coast Technology to the Midwest | Contact Us"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/contact" />
+        <meta property="og:url" key="og:url" content="AMN.com/contact" />
         <link
           rel="canonical"
           key="canonical"
-          href="https://arc.com/contact.js"
+          href="https://AMN.com/contact.js"
         />
       </Head>
       <Grid

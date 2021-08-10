@@ -44,7 +44,7 @@ export default function About(props) {
   return (
     <Grid container direction="column">
       <Head>
-        <title key="title">About Us - History & Team | Arc Development</title>
+        <title key="title">About Us - History | AMN Development</title>
         <meta
           name="description"
           key="description"
@@ -55,8 +55,8 @@ export default function About(props) {
           content="Bringing West Coast Technology to the Midwest | About Us"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/about" />
-        <link rel="canonical" key="canonical" href="arc.com/about" />
+        <meta property="og:url" key="og:url" content="AMN.com/about" />
+        <link rel="canonical" key="canonical" href="AMN.com/about" />
       </Head>
       <Grid
         item
@@ -81,7 +81,7 @@ export default function About(props) {
         >
           Whether it be person to person, business to consumer, or an individual
           to their interests, technology is meant to bring us closer to what we
-          care about in the best way possible. Arc Development will use that
+          care about in the best way possible. AMN Development will use that
           principle to provide fast, modern, inexpensive, and aesthetic software
           to the Midwest and beyond.
         </Typography>

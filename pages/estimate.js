@@ -685,7 +685,7 @@ function Estimate() {
     <Grid container>
       <Head>
         <title key="title">
-          Free Custom Software Estimate | Arc Development
+          Free Custom Software Estimate | AMN Development
         </title>
         <meta
           name="description"
@@ -697,8 +697,8 @@ function Estimate() {
           content="Bringing West Coast Technology to the Midwest | Free Estimate"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/estimate" />
-        <link rel="canonical" key="canonical" href="arc.com/estimate" />
+        <meta property="og:url" key="og:url" content="amn.com/estimate" />
+        <link rel="canonical" key="canonical" href="amn.com/estimate" />
       </Head>
       <Grid
         item

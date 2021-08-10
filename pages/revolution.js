@@ -40,7 +40,7 @@ export default function Revolution(props) {
     <Grid container direction="column">
       <Head>
         <title key="title">
-          The Revolution - Cutting-Edge Software | Arc Development
+          The Revolution - Cutting-Edge Software | AMN Development
         </title>
         <meta
           name="description"
@@ -52,8 +52,8 @@ export default function Revolution(props) {
           content="Bringing West Coast Technology to the Midwest | The Revolution"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/revolution" />
-        <link rel="canonical" key="canonical" href="arc.com/revolution" />
+        <meta property="og:url" key="og:url" content="AMN.com/revolution" />
+        <link rel="canonical" key="canonical" href="AMN.com/revolution" />
       </Head>
       <Grid
         item

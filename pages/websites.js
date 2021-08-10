@@ -40,7 +40,7 @@ export default function Websites(props) {
     <Grid container direction="column">
       <Head>
         <title key="title">
-          Stunning Custom Website Design | Arc Development
+          Stunning Custom Website Design | AMN Development
         </title>
         <meta
           name="description"
@@ -52,8 +52,8 @@ export default function Websites(props) {
           content="Bringing West Coast Technology to the Midwest | Websites"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/websites" />
-        <link rel="canonical" key="canonical" href="arc.com/websites" />
+        <meta property="og:url" key="og:url" content="AMN.com/websites" />
+        <link rel="canonical" key="canonical" href="AMN.com/websites" />
       </Head>
       <Grid
         item
@@ -72,7 +72,7 @@ export default function Websites(props) {
             <IconButton
               style={{ backgroundColor: "transparent" }}
               component={Link}
-              to="/mobileapps"
+              href="/mobiledevelopement"
               onClick={() => props.setSelectedIndex(2)}
             >
               <img
@@ -114,7 +114,7 @@ export default function Websites(props) {
             <IconButton
               style={{ backgroundColor: "transparent" }}
               component={Link}
-              to="/services"
+              href="/services"
               onClick={() => props.setSelectedIndex(0)}
             >
               <img
@@ -255,7 +255,7 @@ export default function Websites(props) {
           <Grid container direction="column">
             <Grid item>
               <Typography align="center" variant="h4" gutterBottom>
-                Search Engine
+                SeAMNh Engine
                 <br />
                 Optimization
               </Typography>

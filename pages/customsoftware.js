@@ -95,8 +95,8 @@ export default function CustomSoftware(props) {
           content="Bringing West Coast Technology to the Midwest | Custom Software Development"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/customsoftware" />
-        <link rel="canonical" key="canonical" href="arc.com/customsoftware" />
+        <meta property="og:url" key="og:url" content="amn.com/customsoftware" />
+        <link rel="canonical" key="canonical" href="amn.com/customsoftware" />
       </Head>
       <Grid
         item
@@ -142,7 +142,7 @@ export default function CustomSoftware(props) {
               paragraph
             >
               Whether we’re replacing old software or inventing new solutions,
-              Arc Development is here to help your business tackle technology.
+              amn Development is here to help your business tackle technology.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -333,7 +333,7 @@ export default function CustomSoftware(props) {
                 paragraph
               >
                 Whether you’re a large brand, just getting started, or taking
-                off right now, our application architecture ensures pain-free
+                off right now, our application amnhitecture ensures pain-free
                 growth and reliability.
               </Typography>
             </Grid>

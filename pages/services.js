@@ -39,7 +39,7 @@ function Services({ setValue, setSelectedIndex }) {
     >
       <Head>
         <title key="title">
-          Top Custom Software Development Services | Arc Development
+          Top Custom Software Development Services | AMN Development
         </title>
         <meta
           name="description"
@@ -51,8 +51,8 @@ function Services({ setValue, setSelectedIndex }) {
           content="Bringing West Coast Technology to the Midwest | Services"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com/services" />
-        <link rel="canonical" key="canonical" href="arc.com/services" />
+        <meta property="og:url" key="og:url" content="AMN.com/services" />
+        <link rel="canonical" key="canonical" href="AMN.com/services" />
       </Head>
       <Grid item style={{ marginLeft: matchSM ? 0 : "5em", marginTop: "2em" }}>
         <Typography variant="h3">Services</Typography>

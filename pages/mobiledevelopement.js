@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function MobileDevelopement(props) {
+function mobiledevelopement(props) {
   const classes = useStyles();
   const theme = useTheme();
   const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
@@ -38,7 +38,7 @@ function MobileDevelopement(props) {
       <Grid container direction="column" className={classes.mainContainer}>
         <Head>
           <title key="title">
-            iOS/Android App Design and Development | Arc Development
+            iOS/Android App Design and Development | AMN Development
           </title>
           <meta
             name="description"
@@ -50,8 +50,8 @@ function MobileDevelopement(props) {
             content="Bringing West Coast Technology to the Midwest | iOS/Android App Development"
             key="og:title"
           />
-          <meta property="og:url" key="og:url" content="arc.com/mobileapps" />
-          <link rel="canonical" key="canonical" href="arc.com/mobileapps" />
+          <meta property="og:url" key="og:url" content="AMN.com/mobileapps" />
+          <link rel="canonical" key="canonical" href="AMN.com/mobileapps" />
         </Head>
         <Grid item container justifyContent={matchesMD ? "center" : undefined}>
           <Hidden mdDown>
@@ -67,7 +67,7 @@ function MobileDevelopement(props) {
                 disableRipple
                 style={{ backgroundColor: "transparent" }}
                 component={Link}
-                to="/customsoftware"
+                href="/customsoftware"
                 onClick={() => props.setSelectedIndex(1)}
               >
                 <img
@@ -124,7 +124,7 @@ function MobileDevelopement(props) {
                 disableRipple
                 style={{ backgroundColor: "transparent" }}
                 component={Link}
-                to="/websites"
+                href="/websites"
                 onClick={() => props.setSelectedIndex(3)}
               >
                 <img
@@ -282,4 +282,4 @@ function MobileDevelopement(props) {
   );
 }
 
-export default MobileDevelopement;
+export default mobiledevelopement;

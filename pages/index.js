@@ -34,7 +34,7 @@ function LandinPage({ setValue, setSelectedIndex }) {
     <Grid container direction="column">
       <Head>
         <title key="title">
-          Custom Software, Mobile Apps, and Websites | Arc Development
+          Custom Software, Mobile Apps, and Websites | AMN Development
         </title>
         <meta
           name="description"
@@ -43,11 +43,11 @@ function LandinPage({ setValue, setSelectedIndex }) {
         />
         <meta
           property="og:title"
-          content="Bringing West Coast Technology to the Midwest | Arc Development"
+          content="Bringing West Coast Technology to the Midwest | AMN Development"
           key="og:title"
         />
-        <meta property="og:url" key="og:url" content="arc.com" />
-        <link rel="canonical" key="canonical" href="arc.com" />
+        <meta property="og:url" key="og:url" content="AMN.com" />
+        <link rel="canonical" key="canonical" href="AMN.com" />
       </Head>
       <Grid item>
         {" "}
